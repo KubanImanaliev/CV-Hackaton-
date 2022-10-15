@@ -1,0 +1,214 @@
+/* * {
+    outline: 1px solid red;
+    } */
+@media all and (max-width: 1024px){
+    .header__nav{
+        width: 95%;
+    }
+    .skills__left-items{
+        width: 100%;
+        justify-content: end;
+    }
+    .code__example{
+        text-align: left;
+        font-size: 18px;
+    }
+}
+
+@media all and (max-width: 768px){
+    .header__nav{
+        justify-content: space-around;
+    }
+    .about__wrapper{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .about__info{
+        margin-top: 30px;
+    }
+    .right{
+        justify-content: center;
+    }
+    .contacts__rigth{
+        margin-top: 30px;
+    }
+    .left {
+        margin-top: 30px;
+        justify-content: center;
+    }
+    .skills__left {
+        width: 502px;
+        padding-left: 36px;
+        text-align: left;
+        border-left: 4px solid #fff;
+        border-right:none
+    }
+    .skills__title:before {
+        content: "";
+        position: absolute;
+        width: 23px;
+        height: 23px;
+        background: #0095B7;
+        border: 3px solid #fff;
+        border-radius: 100%;
+        top: -7px;
+        right: 449px;
+        z-index: -1;
+    }
+    .code__right{
+        margin-top: 30px;
+    }
+    .course__left {
+        width: 502px;
+        border-left: 4px solid #fff;
+        padding-left: 36px;
+        text-align: left;
+        border-right:none
+    }
+    .course__title:before {
+        content: "";
+        position: absolute;
+        width: 23px;
+        height: 23px;
+        background: #0095B7;
+        border: 3px solid #fff;
+        border-radius: 100%;
+        top: -15px;
+        right:450px;
+        z-index: -1;
+    }
+    
+    .container{
+        width: 100%;
+    }
+    .footer__wrapper{
+        justify-content: space-around;
+    }
+}
+
+
+@media all and (max-width: 425px){
+    .burger-menu{
+        display: block;
+    }
+    .navbar__btn_burger{
+        display: block;
+        position: absolute;
+        right: 65px;
+        width: 35px;
+        height: 35px;
+
+    }
+    .header__nav-menu-item{
+        display: none;
+    }
+    .header__nav {
+        width: 100%;
+        margin-left: 20px;
+    }
+    .about__info{
+        width: 100%;
+    }
+    .about__img{
+        width: 90%;
+    }
+    .about__info-title{
+        width: 90%;
+        font-size: 32px;
+        text-align: center;
+    }
+    .about__info-person{
+        font-size: 28px;
+        text-align:center;
+    }
+    .about__info-profession{
+        font-size: 28px;
+        text-align: center;
+    }
+    .about__info-discription {
+        font-size: 16px;
+        text-align: center;
+        width: 400px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .contacts__rigth{
+        align-items: center;
+        border-left: none;
+    }
+    .contacts__title {
+        
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 20px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .contacts__list{
+        text-align: center;
+    }
+    .contacts__title:before {
+        content: "";
+        width: 0px;
+        height: 0px;
+        background: #FF7F00;
+        border: 0;
+       border-left:none
+    }
+    .skills__title:before {
+        content: "";
+        background: #0095B7;
+        border: none;
+        border-radius: 0;
+        
+    }
+    .skills__left {
+        width: 502px;
+        padding-left: 36px;
+        text-align: center;
+        border-left: none;
+        
+    }
+    .code__right{
+        border-left:none;
+    }
+    .code__title {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 20px;
+        color: #FFFFFF;
+        text-align: center;
+        border-left:none;
+    }
+    .code__example {
+        text-align: left;
+        font-size: 16px;
+        white-space:inherit;
+        margin-top: 20px;
+    }
+    .code__title:before {
+        content: "";
+        position: absolute;
+        width: 0px;
+        height: px;
+        background: #FF7F00;
+        border: 0;
+        border-radius: 0%;
+       
+    }
+    .course__left {
+        border-left: none;
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 375px){
+    .about__info-discription{
+        width: 310px;
+    }
+    .skills__left-items{
+        justify-content: center;
+    }
+}
